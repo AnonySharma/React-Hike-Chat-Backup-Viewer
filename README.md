@@ -4,7 +4,7 @@ Since, Hike took the backend down in Feb 2021, a lot of users want to view their
 
 Here's a tool to help you do that.
 
-Steps:
+## Steps:
 
 1. Save the Hike folder inside the public folder of your copy of this project.
 2. Run the following command: `npm install`
@@ -12,3 +12,9 @@ Steps:
 4. Open the browser and go to http://localhost:3000/
 5. Upload your chat history stored in .txt format.
 6. Enjoy reading your old conversation!
+
+## Todo:
+
+<input type="checkbox" disabled /> Make a better UI.
+
+<input type="checkbox" disabled /> Limit image dimentions.
