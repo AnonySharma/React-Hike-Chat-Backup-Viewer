@@ -2,10 +2,6 @@ import React from "react";
 import { Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from "@mui/material";
 
 class AboutPopup extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		const { openStatus, closePopup } = this.props;
 
@@ -28,7 +24,7 @@ class AboutPopup extends React.Component {
 						<strong>Note:</strong> This app is not affiliated with hike.com or hike.co.uk.
 						<br />
 						By:{" "}
-						<a href="https://www.github.com/AnonySharma" target="_blank">
+						<a href="https://www.github.com/AnonySharma" target="_blank" rel="noreferrer">
 							AnonySharma
 						</a>
 					</DialogContentText>
